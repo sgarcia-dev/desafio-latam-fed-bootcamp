@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pagina de Estilos</title>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<style media="screen">
+			#embedido {
+				color: green;
+			}
+		</style>
+		<h1>Mi pagina de estilos</h1>
+		<p style="color: blue">Este elemento tiene estilo inline</p>
+		<p id="embedido">Este elemento tiene estilo embedido</p>
+		<p class="externa">Estos elementos tienen estilos desde una hoja de estilo externa</p>
+		<p id="super-id" class="clase-menor externa clase-mayor">Elemento que se sobrescribe con important</p>
+		<div class="mi-div">
+			<p>Yo soy hijo directo de mi-div</p>
+			<p>Yo tambien!</p>
+			<div>
+				<p>Este elemento no tiene estilo porque no es hijo directo</p>
+			</div>
+		</div>
+
+		<section class="selector-hijo-directo">
+			<h3>Mi Lista</h3>
+			<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<ul>
+					<li>Elemento 1</li>
+					<li>Elemento 2</li>
+					<li>Elemento 3</li>
+				</ul>
+			</ul>
+		</section>
+		<section class="selector-hijo">
+			<h3>Mi Lista</h3>
+			<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<ul>
+					<li>Elemento 1</li>
+					<li>Elemento 2</li>
+					<li>Elemento 3</li>
+				</ul>
+			</ul>
+		</section>
+
+		<section class="selector-hermano">
+			<h3>Mi Lista</h3>
+			<ul>
+				<li>Elemento 3</li>
+			</ul>
+			<ol>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+			</ol>
+			<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+			</ul>
+		</section>
+	</body>
+</html>

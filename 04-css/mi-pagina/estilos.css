@@ -1,0 +1,39 @@
+.clase-menor {
+	color: red !important;
+}
+
+.externa {
+	color: orange;
+}
+
+.clase-mayor {
+	color: blue;
+}
+
+#super-id {
+	color: blue;
+}
+
+.mi-div p {
+	color: cyan;
+}
+
+.mi-div > p {
+	color: purple;
+}
+
+.selector-hijo-directo > ul > li {
+	color: green;
+}
+
+.selector-hijo li {
+	color: green
+}
+
+.selector-hermano li + li {
+	color: green;
+}
+
+.selector-hermano ol + ul {
+	background-color: yellow;
+}

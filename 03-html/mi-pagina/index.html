@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Arriba establecemos que este es
+un documento de typo HTML5 -->
+<html>
+<!-- Apartado donde vive toda la informacion importante
+	para el navegador, no el usuario -->
+
+<head>
+	<!-- Titulo de la pagina mostrado en pestaña -->
+	<title>Mi Pagina</title>
+	<!-- Avisa al navegador que el documento esta
+	codificado con UTF-8 -->
+	<meta charset="utf-8">
+</head>
+<!-- Contenido de nuestra pagina, visible al usario -->
+
+<body>
+	<!-- Section de encabezado de pagina -->
+	<header>
+		<!-- Titulo -->
+		<h1 id="titulo">Mi primer titulo</h1>
+		<!-- Seccion de navegacion con ligas de interes -->
+		<nav>
+			<!-- Lista no ordenada de ligas  -->
+			<ul>
+				<li><a href="pagina-de-estilos.html">Ir a Pagina de Estilos</a></li>
+				<li><a href="www.google.com" class="grupo">liga1</a></li>
+				<li><a href="www.google.com">liga2</a></li>
+				<li><a href="www.google.com"  class="grupo">liga3</a></li>
+				<li><a href="www.google.com">liga4</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Parrafo de Texto -->
+	<p>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nihil ex dolorum fugiat omnis ipsum at alias facilis aspernatur ab esse enim commodi eum exercitationem ad, earum aperiam suscipit officiis.</span>
+		<span>Eligendi recusandae possimus magnam officia deserunt, quis quo, repudiandae aliquid ab nobis accusamus necessitatibus ullam soluta dolores odit facere enim dignissimos delectus ea, tempore sint. Saepe aspernatur, voluptatem beatae sapiente!</span>
+		<span>Ullam culpa rerum nam quasi cumque, tempore earum ipsam amet expedita repellendus temporibus illo dolores architecto saepe sunt animi eligendi, rem consequuntur dignissimos eius, quia voluptas voluptatum porro aut officiis.</span>
+		<span>Deleniti totam quibusdam unde officiis minima non quae ullam vitae iure, ab reiciendis autem repellat saepe accusamus, iste ad ut, velit. Sapiente pariatur fugit ducimus, minus possimus! Maiores, incidunt! Velit!</span>
+	</p>
+
+	<!-- Creamos un grupo de elementos con clase grupo -->
+	<section class="grupo">
+		<!-- titulo de tamaño 4 -->
+		<h4>Cosas que me gustan</h4>
+		<!-- Lista Ordenada -->
+		<ol>
+			<!-- Elementos de la lista -->
+			<li>Programar</li>
+			<li>Aprender</li>
+			<li>Dormir</li>
+		</ol>
+		<!-- titulo de tamaño 4 -->
+		<h4>Cosas que no me gustan</h4>
+		<!-- Lista no ordenada -->
+		<ul>
+			<li>Pepinillos</li>
+			<li>Tener hambre</li>
+			<li>Codigo sin documentacion</li>
+		</ul>
+	</section>
+	<!-- Creamos una forma -->
+	<form action="">
+		<!-- Crea un grupo de inputs-->
+		<fieldset>
+			<!-- Titulo de el grupo de inputs -->
+			<legend>Datos de el Usuario</legend>
+			<!-- Div que contiene controles de Input de Nombre -->
+			<div>
+				<!-- Etiqueta que describe la funcion de el input con ID de "nombre" para el usuario -->
+				<label for="nombre">Nombre:</label>
+				<!-- Input de tipo nombre -->
+				<input id="nombre" name="nombre" type="text" placeholder="tu nombre...">
+			</div>
+		<!-- Div que contiene controles de Input de Correo -->
+			<div>
+				<!-- Etiqueta que describe la funcion de el input con ID de "email" para el usuario -->
+				<label for="email">Correo:</label>
+				<!-- Input de tipo nombre -->
+				<input id="email" name="email" type="email" placeholder="tu correo...">
+			</div>
+		</fieldset>
+		<!-- Input de opcion multiple -->
+		<select name="tipo de mensaje" id="">
+			<!-- Opciones -->
+			<option value="pregunta">Pregunta</option>
+			<option value="solicitud">Solicitud</option>
+		</select>
+		<br>
+		<!-- Input de Mensaje de multiples lineas -->
+		<textarea name="message" id="" cols="30" rows="10" placeholder="tu mensaje..."></textarea>
+		<br>
+		<!-- Boton de Aceptar -->
+		<input type="submit" value="Mandar">
+	</form>
+	<!-- Pie de pagina -->
+	<footer>
+		<!-- Liga a su pagina de github -->
+		<a href="https://github.com/sgarcia-dev">Link a mi Github</a>
+		<br />
+		<!-- Imagen -->
+		<img src="https://avatars0.githubusercontent.com/u/7468219?v=3&s=460" alt="Foto de Perfil" width="150px" height="150px">
+	</footer>
+</body>
+
+</html>
