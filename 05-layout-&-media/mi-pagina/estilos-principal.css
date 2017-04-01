@@ -15,13 +15,13 @@ main {
 	margin-top: 50px;
 }
 
-aside, article {
+/*aside, article {
 	float: left;
 }
 
 article {
 	width: 65%;
-}
+}*/
 
 aside {
 	width: 35%;

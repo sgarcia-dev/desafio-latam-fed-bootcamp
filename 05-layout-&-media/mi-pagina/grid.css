@@ -2,10 +2,18 @@
 	float: left;
 }
 
-.columna.tres {
-	width: 33.33%;
+.columna.uno-tres {
+	width: 33.333%;
 }
 
-.columna.dos {
+.columna.uno-dos {
 	width: 50%;
+}
+
+.columna.uno-cuatro {
+	width: 25%;
+}
+
+.columna.uno-seis {
+	width: 16.666%
 }
