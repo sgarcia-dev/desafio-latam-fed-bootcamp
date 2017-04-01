@@ -7,6 +7,17 @@ nav {
 	background-color: black;
 }
 
+nav a {
+	color: white;
+	background-color: black;
+	transition: 0.3s all
+}
+
+nav a:hover {
+	color: black;
+	background-color: white;
+}
+
 .nav-links {
 	float: right;
 }
