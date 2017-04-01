@@ -1,0 +1,48 @@
+
+nav {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+
+.nav-links {
+	float: right;
+}
+
+main {
+	margin-top: 50px;
+}
+
+aside, article {
+	float: left;
+}
+
+article {
+	width: 65%;
+}
+
+aside {
+	width: 35%;
+}
+
+.tiene-padding {
+	padding: 0 15px;
+}
+
+.tiene-clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background-color: black;
+	color: gray;
+	margin-top: 30px;
+	padding: 30px 15px 100px 15px;
+}
+footer > p {
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+.columna {
+	float: left;
+}
+
+.columna.tres {
+	width: 33.33%;
+}
+
+.columna.dos {
+	width: 50%;
+}
