@@ -1,0 +1,13 @@
+body { padding-top: 70px; }
+
+.jumbotron {
+	background-image: url('http://lorempixel.com/1400/850/business/');
+	background-size: cover;
+	color: white;
+}
+
+footer {
+	padding: 50px 0 110px 0;
+	background-color: black;
+	color: white;
+}
